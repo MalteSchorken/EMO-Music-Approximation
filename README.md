@@ -2,13 +2,14 @@
 
 Instrument and pitch detection in polyphonic audio recordings is a fundamental yet challenging problem in the field of musical information retrieval. State-of-the-art deep learning approaches require large annotated datasets and extensive training, whereas evolutionary algorithms (EAs) offer a data-independent alternative through direct signal approximation.
 
-This implementation uses multi-objective evolutionary algorithms (MOEA) to approximate musical pieces. It is an extension of the implementation by [Dettmer et. al. (2024)](https://doi.org/10.1007/978-3-031-56992-0_8). The input is an mp3 file as input and it outputs the final population of the MOEA. 
+This implementation uses multi-objective evolutionary algorithms (MOEA) to approximate musical pieces. It is an extension of the implementation by [Dettmer et. al. (2024)](https://doi.org/10.1007/978-3-031-56992-0_8). The input is an mp3 file and it outputs the final population of the MOEA. 
 
 ## Experiment Reproduction
 - Download additional supplemental material from here: https://drive.google.com/drive/folders/1URvtT1r0kJlxDSG6PGnaWhvVuTzhyysX?usp=drive_link  
 - Unzip and place the `audio` folder (sample library) in the root directory.
 - Install dependencies from `requirements.txt` as venv or with the python environment manager of your choosing.
 - Run MOEA_aam.py to reproduce the experiments.
+- Optionally analyse the populations using the notebooks.
 
 ## Parameter Overview
 
